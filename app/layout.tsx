@@ -16,7 +16,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "NextJs App",
+  title: "Next.js by Vercel - The React Framework",
   description: "Welcome to my NextJs app!",
 };
 
