@@ -37,13 +37,12 @@ const NavBar = () => {
             placeholder="Search Here"
           />
           <button
-            className="ml-2 flex gap-2 border-none border-gray border-2xl py-1 px-4 rounded"
-            style={{ backgroundColor: "rgb(31,31,31)" }}
+            className="ml-2 flex gap-2 border border-gray-500 rounded-lg py-1 px-4 rounded cursor-pointer"
           >
             <Image src="/Vercel.png" alt="Vercel Logo" width={20} height={20} />
             Deploy
           </button>
-          <button className="ml-2 border-none border-gray border-2xl py-1 px-4 rounded bg-white text-black">
+          <button className="ml-2 border-none border-gray border-2xl py-1 px-4 rounded bg-white text-black cursor-pointer">
             Learn
           </button>
         </div>

@@ -5,7 +5,7 @@ export default function Home() {
   //console.log("Hello world");
   return (
     <div>
-      <section className="w-full h-50">
+      <section className="w-full  mx-auto">
         <Hero/>
       </section>
     </div>
