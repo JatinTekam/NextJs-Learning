@@ -8,25 +8,25 @@ const NavBar = () => {
       <nav className="container text-md flex justify-around items-center px-2">
         <div className="flex gap-4  items-center">
           <Image src="/Vercel.png" alt="Vercel Logo" width={50} height={50} />
-          <h2 className="text-2xl">
+          <Link href="/" className="text-2xl">
             NEXT <span className="text-sm">.JS</span>
-          </h2>
+          </Link>
           <li className="flex gap-6 ml-5">
-            <ul className="text-gray-400 hover:text-white cursor-pointer">
+            <Link href="/showcase" className="text-gray-400 hover:text-white cursor-pointer">
               Showcase
-            </ul>
-            <ul className="text-gray-400 hover:text-white cursor-pointer">
+            </Link>
+            <Link href='/docs' className="text-gray-400 hover:text-white cursor-pointer">
               Docs
-            </ul>
-            <ul className="text-gray-400 hover:text-white cursor-pointer">
+            </Link>
+            <Link href="blog" className="text-gray-400 hover:text-white cursor-pointer">
               Blog
-            </ul>
-            <ul className="text-gray-400 hover:text-white cursor-pointer">
+            </Link>
+            <Link href="/templates" className="text-gray-400 hover:text-white cursor-pointer">
               Templates
-            </ul>
-            <ul className="text-gray-400 hover:text-white cursor-pointer">
+            </Link>
+            <Link href="enterprise" className="text-gray-400 hover:text-white cursor-pointer">
               Enterprise
-            </ul>
+            </Link>
           </li>
         </div>
         <div className="flex">
