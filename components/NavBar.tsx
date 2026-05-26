@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+""
 
 const NavBar = () => {
   return (
@@ -18,7 +19,7 @@ const NavBar = () => {
             <Link href='/docs' className="text-gray-400 hover:text-white cursor-pointer">
               Docs
             </Link>
-            <Link href="blog" className="text-gray-400 hover:text-white cursor-pointer">
+            <Link href="/blog" className="text-gray-400 hover:text-white cursor-pointer">
               Blog
             </Link>
             <Link href="/templates" className="text-gray-400 hover:text-white cursor-pointer">
